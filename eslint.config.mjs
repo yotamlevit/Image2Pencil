@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Static, pre-built assets served as-is (OpenCV.js + the classic worker).
+    "public/**",
   ]),
 ]);
 
